@@ -10,18 +10,46 @@
 		8B5E775C1F5482EB00AC0654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E775B1F5482EB00AC0654 /* AppDelegate.swift */; };
 		8B5E775E1F5482EB00AC0654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E775D1F5482EB00AC0654 /* ViewController.swift */; };
 		8B5E77611F5482EB00AC0654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5E775F1F5482EB00AC0654 /* Main.storyboard */; };
-		8B5E77631F5482EB00AC0654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5E77621F5482EB00AC0654 /* Assets.xcassets */; };
+		8B5E77631F5482EB00AC0654 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5E77621F5482EB00AC0654 /* Models.scnassets */; };
 		8B5E77661F5482EB00AC0654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5E77641F5482EB00AC0654 /* LaunchScreen.storyboard */; };
+		8B5E776E1F5485FB00AC0654 /* SceneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E776D1F5485FB00AC0654 /* SceneExtensions.swift */; };
+		8B5E77701F54877200AC0654 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E776F1F54877200AC0654 /* Utils.swift */; };
+		8B5E77751F548DCA00AC0654 /* ViewController+ARSceneViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E77741F548DCA00AC0654 /* ViewController+ARSceneViewDelegate.swift */; };
+		8B5E777B1F54A7A900AC0654 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E777A1F54A7A800AC0654 /* Plane.swift */; };
+		8BD2104B1F54AB3C009D24A0 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E777D1F54A9E200AC0654 /* FocusSquare.swift */; };
+		8BD2104C1F54AB46009D24A0 /* VirtualObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E77771F54A5F200AC0654 /* VirtualObjectManager.swift */; };
+		8BD2104D1F54AB49009D24A0 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E77791F54A62400AC0654 /* VirtualObject.swift */; };
+		8BD2104E1F54AB4B009D24A0 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E777E1F54A9E200AC0654 /* FocusSquareSegment.swift */; };
+		8BD210531F54ABBB009D24A0 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD210501F54ABB6009D24A0 /* Gesture.swift */; };
+		8BD210541F54ABBE009D24A0 /* SingleFingerGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD210511F54ABB6009D24A0 /* SingleFingerGesture.swift */; };
+		8BD210551F54ABC1009D24A0 /* TwoFingerGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD210521F54ABB6009D24A0 /* TwoFingerGesture.swift */; };
+		8BD210571F54ABE5009D24A0 /* ARSCNView+HitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD210561F54ABE5009D24A0 /* ARSCNView+HitTests.swift */; };
+		8BD210591F54ACBF009D24A0 /* ViewController+ObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD210581F54ACBE009D24A0 /* ViewController+ObjectSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B337E391F54C27C0078D669 /* athlon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = athlon; path = /Users/TrullyONE/Development/Demos/HelloARKit/HelloARKit/assets/Models.scnassets/athlon; sourceTree = "<absolute>"; };
 		8B5E77581F5482EB00AC0654 /* HelloARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5E775B1F5482EB00AC0654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B5E775D1F5482EB00AC0654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B5E77601F5482EB00AC0654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B5E77621F5482EB00AC0654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B5E77621F5482EB00AC0654 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		8B5E77651F5482EB00AC0654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5E77671F5482EC00AC0654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5E776D1F5485FB00AC0654 /* SceneExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneExtensions.swift; sourceTree = "<group>"; };
+		8B5E776F1F54877200AC0654 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8B5E77741F548DCA00AC0654 /* ViewController+ARSceneViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSceneViewDelegate.swift"; sourceTree = "<group>"; };
+		8B5E77771F54A5F200AC0654 /* VirtualObjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectManager.swift; sourceTree = "<group>"; };
+		8B5E77781F54A5F200AC0654 /* VirtualObjects.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VirtualObjects.json; sourceTree = "<group>"; };
+		8B5E77791F54A62400AC0654 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		8B5E777A1F54A7A800AC0654 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		8B5E777D1F54A9E200AC0654 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		8B5E777E1F54A9E200AC0654 /* FocusSquareSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		8BD210501F54ABB6009D24A0 /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		8BD210511F54ABB6009D24A0 /* SingleFingerGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFingerGesture.swift; sourceTree = "<group>"; };
+		8BD210521F54ABB6009D24A0 /* TwoFingerGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFingerGesture.swift; sourceTree = "<group>"; };
+		8BD210561F54ABE5009D24A0 /* ARSCNView+HitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARSCNView+HitTests.swift"; sourceTree = "<group>"; };
+		8BD210581F54ACBE009D24A0 /* ViewController+ObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ObjectSelection.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,61 @@
 		8B5E775A1F5482EB00AC0654 /* HelloARKit */ = {
 			isa = PBXGroup;
 			children = (
+				8BD2104F1F54ABB6009D24A0 /* Gestures */,
+				8B5E777C1F54A9E200AC0654 /* Focus Squares */,
+				8B5E77761F54A5F200AC0654 /* Virtual Objects */,
+				8BD210561F54ABE5009D24A0 /* ARSCNView+HitTests.swift */,
 				8B5E775B1F5482EB00AC0654 /* AppDelegate.swift */,
 				8B5E775D1F5482EB00AC0654 /* ViewController.swift */,
+				8B5E77741F548DCA00AC0654 /* ViewController+ARSceneViewDelegate.swift */,
+				8BD210581F54ACBE009D24A0 /* ViewController+ObjectSelection.swift */,
 				8B5E775F1F5482EB00AC0654 /* Main.storyboard */,
-				8B5E77621F5482EB00AC0654 /* Assets.xcassets */,
 				8B5E77641F5482EB00AC0654 /* LaunchScreen.storyboard */,
 				8B5E77671F5482EC00AC0654 /* Info.plist */,
+				8B5E776D1F5485FB00AC0654 /* SceneExtensions.swift */,
+				8B5E776F1F54877200AC0654 /* Utils.swift */,
+				8B5E777A1F54A7A800AC0654 /* Plane.swift */,
+				8B5E77731F548BFB00AC0654 /* assets */,
 			);
 			path = HelloARKit;
+			sourceTree = "<group>";
+		};
+		8B5E77731F548BFB00AC0654 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				8B337E391F54C27C0078D669 /* athlon */,
+				8B5E77621F5482EB00AC0654 /* Models.scnassets */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		8B5E77761F54A5F200AC0654 /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8B5E77791F54A62400AC0654 /* VirtualObject.swift */,
+				8B5E77771F54A5F200AC0654 /* VirtualObjectManager.swift */,
+				8B5E77781F54A5F200AC0654 /* VirtualObjects.json */,
+			);
+			path = "Virtual Objects";
+			sourceTree = "<group>";
+		};
+		8B5E777C1F54A9E200AC0654 /* Focus Squares */ = {
+			isa = PBXGroup;
+			children = (
+				8B5E777D1F54A9E200AC0654 /* FocusSquare.swift */,
+				8B5E777E1F54A9E200AC0654 /* FocusSquareSegment.swift */,
+			);
+			path = "Focus Squares";
+			sourceTree = "<group>";
+		};
+		8BD2104F1F54ABB6009D24A0 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				8BD210501F54ABB6009D24A0 /* Gesture.swift */,
+				8BD210511F54ABB6009D24A0 /* SingleFingerGesture.swift */,
+				8BD210521F54ABB6009D24A0 /* TwoFingerGesture.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5E77661F5482EB00AC0654 /* LaunchScreen.storyboard in Resources */,
-				8B5E77631F5482EB00AC0654 /* Assets.xcassets in Resources */,
+				8B5E77631F5482EB00AC0654 /* Models.scnassets in Resources */,
 				8B5E77611F5482EB00AC0654 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +210,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5E776E1F5485FB00AC0654 /* SceneExtensions.swift in Sources */,
+				8BD2104B1F54AB3C009D24A0 /* FocusSquare.swift in Sources */,
+				8BD210571F54ABE5009D24A0 /* ARSCNView+HitTests.swift in Sources */,
+				8BD210591F54ACBF009D24A0 /* ViewController+ObjectSelection.swift in Sources */,
+				8BD210551F54ABC1009D24A0 /* TwoFingerGesture.swift in Sources */,
+				8B5E77751F548DCA00AC0654 /* ViewController+ARSceneViewDelegate.swift in Sources */,
 				8B5E775E1F5482EB00AC0654 /* ViewController.swift in Sources */,
+				8BD210541F54ABBE009D24A0 /* SingleFingerGesture.swift in Sources */,
 				8B5E775C1F5482EB00AC0654 /* AppDelegate.swift in Sources */,
+				8BD2104E1F54AB4B009D24A0 /* FocusSquareSegment.swift in Sources */,
+				8BD2104D1F54AB49009D24A0 /* VirtualObject.swift in Sources */,
+				8B5E777B1F54A7A900AC0654 /* Plane.swift in Sources */,
+				8BD2104C1F54AB46009D24A0 /* VirtualObjectManager.swift in Sources */,
+				8BD210531F54ABBB009D24A0 /* Gesture.swift in Sources */,
+				8B5E77701F54877200AC0654 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +360,6 @@
 		8B5E776B1F5482EC00AC0654 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AP6N8YCQ7H;
 				INFOPLIST_FILE = HelloARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -286,7 +373,6 @@
 		8B5E776C1F5482EC00AC0654 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AP6N8YCQ7H;
 				INFOPLIST_FILE = HelloARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
